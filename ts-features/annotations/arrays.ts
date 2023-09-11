@@ -21,7 +21,7 @@ const arrayOfArray = [
 // 1. TS can do type inference when extracting values from an array - example below
 const carTest = carMakers[0]; // type inference for it is string
 // 2. TS can prevent us from adding incompatible values to the array - example below
-carMakers.push(100); // error
+// carMakers.push(100); // error
 // 3. We can get help with 'map', 'forEach', 'reduce' functions - example below
 carMakers.map((car: string): string => {
     return car.toUpperCase();
