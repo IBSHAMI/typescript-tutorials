@@ -18,4 +18,5 @@
 // If declaration and initialization are on different lines, we need to add type annotation.
 // let color; --> type inference: color is any
 
+// color = 'red'; --> type inference: color is a string
 
