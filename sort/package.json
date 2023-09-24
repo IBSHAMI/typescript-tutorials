@@ -1,0 +1,14 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start:build": "npx tsc -w",
+    "start:server": "nodemon dist/index.js",
+    "start": "concurrently npm:start:* "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
